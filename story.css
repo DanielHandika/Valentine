@@ -10,7 +10,8 @@ body {
 }
 
 h1 {
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 
 hr {
