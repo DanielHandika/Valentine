@@ -1,0 +1,26 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url('foto/12.jpg');
+}
+
+h1 {
+  padding: 2rem;
+}
+
+hr {
+  color: white;
+}
+
+.text {
+  margin: 1rem;
+}
+
+.hitam {
+  color: black;
+}
