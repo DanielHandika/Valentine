@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+body {
+  background-image: url(foto/12.jpg);
+}
+
+hr {
+  color: white;
+}
+
+.q {
+  height: 350px;
+  width: 270px;
+  position: absolute;
+  transform: translate(1.2%);
+  padding-top: 2px;
+  padding-left: 1rem;
+}
+
+h1 {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  color: white;
+}
