@@ -26,3 +26,8 @@ h1 {
   padding-left: 2rem;
   color: white;
 }
+
+.fas {
+  padding-left: 2rem;
+  transform: translate(600%, -200%);
+}
