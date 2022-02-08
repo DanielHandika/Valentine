@@ -30,4 +30,28 @@ h1 {
 .fas {
   padding-left: 2rem;
   transform: translate(600%, -200%);
+  animation-name: slide;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    margin-left: -250px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    margin-left: -250px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
 }
