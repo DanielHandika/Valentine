@@ -34,6 +34,8 @@ button {
   text-align: center;
   padding: 10px 15px;
   margin-left: 10px;
+  animation-name: slide;
+  animation-duration: 2s;
 }
 
 button:hover {
@@ -56,6 +58,28 @@ button:after {
 
 button:hover:after {
   height: 100%;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    margin-left: -250px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    margin-left: -250px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 576px) {

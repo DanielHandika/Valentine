@@ -1,0 +1,16 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poopins', sans-serif;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+.fas {
+  padding-left: 2rem;
+  transform: translate(00%, 1900%);
+  animation-name: slide;
+  animation-duration: 3s;
+}
