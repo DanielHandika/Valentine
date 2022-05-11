@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+hr {
+  color: white;
+}
+
+p {
+  padding: 1rem;
+  transform: translate(1%, -10%);
+  margin: 1rem;
+}
+
+.penutup {
+  transform: translate(1%, -100%);
+}
+
+.fas {
+  padding-left: 2rem;
+  transform: translate(600%, -500%);
+  animation-name: slide;
+  animation-duration: 4s;
+}
+
+.nb {
+  transform: translate(1%, -100%);
+}
